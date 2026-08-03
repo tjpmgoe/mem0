@@ -51,8 +51,6 @@ services:
 
   mem0-dashboard:
     build: ./dashboard
-    ports:
-      - "3000:3000"
     networks:
       - mem0_network
     environment:
